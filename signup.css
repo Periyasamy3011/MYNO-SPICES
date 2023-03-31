@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/pexels-karolina-.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#signup-page>h2{
+    text-align: center;
+    position: relative;
+    top: 20px;
+    font-family:sans-serif;
+    color: rgb(4, 203, 1);
+    text-shadow: 0 0 5px rgb(11, 14, 11);
+    font-size: 2rem;
+}
+#signup-page .details{
+    color: rgb(6, 6, 6);
+    text-shadow: 2px 2px 5px rgb(249, 246, 246);
+    width: 350px;
+    height: 400px;
+    background-color:rgba(240, 248, 255, 0.163);
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 35%;
+    box-shadow: 0px 2px 30px black;
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: center;
+}
+#signup-page .details >label{
+    font-size: larger;
+    font-weight: bold;
+}
+
+input{ 
+    width: 250px;
+    height: 30px;
+    background: none;    
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgb(28, 243, 4);
+    outline: none;
+}
+
+button {
+    margin-top: 3%;
+    margin-left: 6%;
+    border-radius: 5px;
+
+}
+
+#send{
+    color: green;
+    width: 60px;
+}
+#send:hover{
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+#reset{
+    color: red;
+    width: 60px;
+}
+#reset:hover{
+    background-color: red;
+    color: black;
+}
+
+.details > span{
+    position: relative;
+    top: 20px;
+}
+.details > span a:hover{
+    color: green;
+    font-weight: bold;
+}
